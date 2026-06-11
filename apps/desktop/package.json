@@ -2,6 +2,8 @@
   "name": "kirutma-desktop",
   "private": true,
   "version": "1.0.0",
+  "author": "Alexandar Vincent Paulraj",
+  "license": "LicenseRef-Proprietary",
   "type": "module",
   "scripts": {
     "dev": "vite",

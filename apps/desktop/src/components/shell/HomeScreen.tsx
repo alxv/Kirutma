@@ -54,6 +54,9 @@ export function HomeScreen() {
       <p className="mt-2 max-w-md text-center text-[12px] text-text-muted">
         Design with frames, shapes, and text on an infinite canvas.
       </p>
+      <p className="mt-3 text-[10px] text-text-muted/80">
+        © {new Date().getFullYear()} Alexandar Vincent Paulraj
+      </p>
 
       <div className="mt-8 flex gap-3">
         <button

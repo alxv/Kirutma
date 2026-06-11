@@ -25,7 +25,8 @@
 | **Exports** | PNG (1×, 2×, 3×), SVG |
 | **Website** | `[WEBSITE_URL]` |
 | **Download** | `[DOWNLOAD_URL]` |
-| **Contact** | `[CONTACT_EMAIL]` |
+| **Contact** | [github.com/alxv/Kirutma](https://github.com/alxv/Kirutma) |
+| **Owner** | Alexandar Vincent Paulraj |
 | **Source / community** | `[GITHUB_URL]` |
 
 ---
@@ -33,7 +34,7 @@
 ## Founder / team quote (template)
 
 > “We built Kirutma because design work deserves a fast, local home — an infinite canvas that opens instantly and keeps your files under your control. v1.0 is our foundation: tools, structure, and export done right. We’re excited to hear what designers create with it.”  
-> — `[NAME]`, `[TITLE]`
+> — **Alexandar Vincent Paulraj**, Owner
 
 ---
 

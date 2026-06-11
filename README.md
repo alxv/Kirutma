@@ -62,4 +62,13 @@ See [PLAN.md](./PLAN.md) for architecture and roadmap.
 
 ## License
 
-TBD
+Copyright © 2026 **Alexandar Vincent Paulraj**. All rights reserved.
+
+Kirutma is proprietary software. See [LICENSE](./LICENSE) and [COPYRIGHT](./COPYRIGHT).
+
+## Documentation
+
+- [USER_MANUAL.md](./USER_MANUAL.md) — end-user guide
+- [DISTRIBUTION.md](./DISTRIBUTION.md) — build and release
+- [SIGNING.md](./SIGNING.md) — code signing setup
+- [.github/SECRETS_CHECKLIST.md](./.github/SECRETS_CHECKLIST.md) — GitHub Actions secrets for [alxv/Kirutma](https://github.com/alxv/Kirutma)

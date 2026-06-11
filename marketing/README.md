@@ -29,7 +29,7 @@ Ready-to-use copy, messaging, and brand assets for sharing **Kirutma v1.0.0** wi
 - **Tagline:** *Design with frames, shapes, and text on an infinite canvas.*
 - **File format:** `.kirutma` (local, portable JSON documents)
 - **Exports:** PNG (1×, 2×, 3×) and SVG
-- **License:** TBD (update before public release)
+- **License:** Proprietary — © 2026 Alexandar Vincent Paulraj. All rights reserved. See [LICENSE](../LICENSE).
 
 ## Before you publish
 

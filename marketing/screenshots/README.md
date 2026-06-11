@@ -1,21 +1,19 @@
 # Screenshot Guide
 
-Add captured images here for website, social, and press use. This folder is intentionally empty until you capture from the running app.
+Captured images for website, social, and press use.
 
----
+## Included screenshots
 
-## Recommended shots (6–8 total)
+| File | Description |
+|------|-------------|
+| [01-home.png](./01-home.png) | Home screen |
+| [02-canvas-overview.png](./02-canvas-overview.png) | Full editor overview |
+| [03-canvas-zoom.png](./03-canvas-zoom.png) | Canvas with content |
+| [04-layers.png](./04-layers.png) | Layers panel |
+| [05-properties.png](./05-properties.png) | Properties panel |
+| [06-assets.png](./06-assets.png) | Assets panel |
 
-| Filename | What to show |
-|----------|----------------|
-| `01-home.png` | Home screen: logo, tagline, New file / Open file |
-| `02-canvas-overview.png` | Full editor: toolbar, layers, canvas, properties |
-| `03-canvas-zoom.png` | Zoomed canvas with multiple frames/shapes (shows infinite canvas) |
-| `04-layers.png` | Layers panel with nested hierarchy visible |
-| `05-properties.png` | Properties panel: fill, stroke, typography, or shadow |
-| `06-styles-components.png` | Assets panel with color/text styles or components |
-| `07-export.png` | Export menu or exported PNG/SVG result |
-| `08-shortcuts.png` | Keyboard shortcuts sheet (Help menu) |
+Optional additional shots (not yet captured):
 
 ---
 

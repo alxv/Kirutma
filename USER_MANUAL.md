@@ -594,3 +594,5 @@ These may arrive in future releases. Feedback helps prioritize what comes next.
 ---
 
 *Kirutma — Design with frames, shapes, and text on an infinite canvas.*
+
+*Copyright © 2026 Alexandar Vincent Paulraj. All rights reserved.*

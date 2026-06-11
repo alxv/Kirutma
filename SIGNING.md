@@ -1,8 +1,12 @@
 # Code Signing Setup
 
+**Owner:** Alexandar Vincent Paulraj  
+**Repository:** [github.com/alxv/Kirutma](https://github.com/alxv/Kirutma)  
+**GitHub secrets checklist:** [.github/SECRETS_CHECKLIST.md](./.github/SECRETS_CHECKLIST.md)
+
 How to sign Kirutma for Mac (sign + notarize) and Windows before GitHub Releases.
 
-**Related:** [DISTRIBUTION.md](./DISTRIBUTION.md) · [.github/workflows/release.yml](./.github/workflows/release.yml)
+Signed builds should use certificates registered to **Alexandar Vincent Paulraj** (or your registered organization).
 
 ---
 
@@ -104,6 +108,10 @@ Copy the hex string (no spaces), e.g. `A1B2C3D4E5F6...`.
 ## GitHub repository secrets
 
 In your GitHub repo: **Settings → Secrets and variables → Actions → New repository secret**
+
+Direct link for this project: [github.com/alxv/Kirutma/settings/secrets/actions](https://github.com/alxv/Kirutma/settings/secrets/actions)
+
+See [.github/SECRETS_CHECKLIST.md](./.github/SECRETS_CHECKLIST.md) for a copy-paste checklist.
 
 | Secret | Value |
 |--------|--------|

@@ -1,9 +1,10 @@
 [package]
 name = "kirutma"
 version = "1.0.0"
-description = "Kirutma — Figma-class design tool"
-authors = ["Kirutma"]
+description = "Kirutma — desktop design tool"
+authors = ["Alexandar Vincent Paulraj"]
 edition = "2021"
+license = "LicenseRef-Proprietary"
 
 [lib]
 name = "kirutma_lib"

@@ -16,7 +16,7 @@ Designers, indie makers, students, and anyone who wants a local, focused tool fo
 
 ### Is Kirutma free?
 
-`[Update: Free / paid / freemium — set before public launch.]`
+Kirutma is proprietary software owned by **Alexandar Vincent Paulraj**. Download and use are subject to the [LICENSE](https://github.com/alxv/Kirutma/blob/main/LICENSE). Contact the owner via [GitHub](https://github.com/alxv/Kirutma) for licensing questions.
 
 ---
 

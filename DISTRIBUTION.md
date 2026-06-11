@@ -235,6 +235,9 @@ In the GitHub repo:
 
 See [SIGNING.md](./SIGNING.md) for Mac and Windows certificate setup, then add secrets under **Settings → Secrets and variables → Actions**.
 
+**Checklist:** [.github/SECRETS_CHECKLIST.md](./.github/SECRETS_CHECKLIST.md)  
+**Secrets URL:** [github.com/alxv/Kirutma/settings/secrets/actions](https://github.com/alxv/Kirutma/settings/secrets/actions)
+
 Without secrets, releases still build but installers are **unsigned**.
 
 ---

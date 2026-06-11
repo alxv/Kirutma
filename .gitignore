@@ -7,6 +7,10 @@ target/
 
 # Frontend build output
 apps/desktop/dist/
+*.tsbuildinfo
+
+# Generated PDFs (source is Markdown)
+docs/pdf/
 
 # OS / editor
 .DS_Store
@@ -22,3 +26,7 @@ apps/desktop/dist/
 *.pfx
 certificate-base64.txt
 base64cert.txt
+
+# Internal planning (local only)
+PLAN.md
+sample_design.md

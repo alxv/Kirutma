@@ -158,7 +158,7 @@ For v1.0, **GitHub Releases plus a simple download page** is the standard approa
 5. Upload to GitHub Release with clear filenames, e.g.:
    - `Kirutma_1.0.0_aarch64.dmg`
    - `Kirutma_1.0.0_x64-setup.exe`
-6. Update placeholders in `marketing/` (`[DOWNLOAD_URL]`, etc.)
+6. Update download links in README to `https://github.com/alxv/Kirutma/releases/latest`
 7. Document install steps in README or link to this file
 
 ---
@@ -188,7 +188,7 @@ npm run install:mac
 ### Related docs
 
 - [Tauri — Distribute](https://v2.tauri.app/distribute/)
-- [marketing/README.md](./marketing/README.md) — launch copy and placeholders
+- [docs/screenshots/](./docs/screenshots/) — README and release images
 - [.github/workflows/ci.yml](./.github/workflows/ci.yml) — CI build matrix
 - [.github/workflows/release.yml](./.github/workflows/release.yml) — automated GitHub Releases
 
@@ -295,7 +295,7 @@ After the release is published, use:
 https://github.com/YOUR_ORG/YOUR_REPO/releases/latest
 ```
 
-Replace placeholders in `marketing/` with that URL.
+Download page: **https://github.com/alxv/Kirutma/releases/latest**
 
 ### How apps get to GitHub (summary)
 

@@ -565,8 +565,6 @@ Open the full reference anytime: **Help → Keyboard Shortcuts…** or `Ctrl+?` 
 
 For installation and distribution, see [DISTRIBUTION.md](./DISTRIBUTION.md).
 
-For launch and sharing materials, see [marketing/README.md](./marketing/README.md).
-
 ---
 
 ## Appendix: What’s in v1.0

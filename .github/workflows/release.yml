@@ -155,6 +155,8 @@ jobs:
             - **Windows:** Run the MSI or setup EXE, then launch from the Start menu.
 
             User manual: https://github.com/${{ github.repository }}/blob/v__VERSION__/USER_MANUAL.md
+
+            Download: https://github.com/alxv/Kirutma/releases/latest
           releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}

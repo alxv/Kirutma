@@ -26,6 +26,7 @@ docs/pdf/
 *.pfx
 certificate-base64.txt
 base64cert.txt
+.signing-secrets.env
 
 # Internal planning (local only)
 PLAN.md

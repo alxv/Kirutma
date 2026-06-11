@@ -4,9 +4,38 @@
 **Repository:** [github.com/alxv/Kirutma](https://github.com/alxv/Kirutma)  
 **Secrets page:** [github.com/alxv/Kirutma/settings/secrets/actions](https://github.com/alxv/Kirutma/settings/secrets/actions)
 
-These secrets are **not stored in the repository**. Add each one manually in GitHub
-after you obtain your signing certificates. The Release workflow reads them at
-build time.
+## Quick setup (recommended)
+
+1. Copy the template and fill in your values (paths and passwords stay on your Mac only):
+
+```bash
+cp .signing-secrets.env.example .signing-secrets.env
+# Edit .signing-secrets.env in a text editor
+```
+
+2. Install and log in to GitHub CLI:
+
+```bash
+brew install gh
+gh auth login
+```
+
+3. Upload all secrets to [alxv/Kirutma](https://github.com/alxv/Kirutma):
+
+```bash
+chmod +x scripts/setup-github-secrets.sh
+./scripts/setup-github-secrets.sh
+```
+
+4. Re-run the Release workflow or push a new tag for signed builds.
+
+---
+
+## Manual setup
+
+Direct link: [github.com/alxv/Kirutma/settings/secrets/actions](https://github.com/alxv/Kirutma/settings/secrets/actions)
+
+These secrets are **not stored in the repository**. Add each one in GitHub after you obtain your signing certificates.
 
 ---
 

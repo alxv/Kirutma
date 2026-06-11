@@ -10,15 +10,17 @@ Kirutma is a desktop design application for UI mockups, layouts, and vector grap
 
 ## Download
 
-Get the latest release for your platform:
+Kirutma for Mac (Apple Silicon) is distributed directly by the owner — not via this repository.
 
-**[github.com/alxv/Kirutma/releases/latest](https://github.com/alxv/Kirutma/releases/latest)**
+Contact **[Alexandar Vincent Paulraj](https://github.com/alxv)** for the latest `.dmg` installer.
 
-| Platform | Installer |
-|----------|-----------|
-| Mac (Apple Silicon) | `.dmg` (aarch64) |
-| Mac (Intel) | `.dmg` (x86_64) |
-| Windows | `.msi` or setup `.exe` |
+### Install (Mac)
+
+1. Open the `.dmg` file  
+2. Drag **Kirutma** to **Applications**  
+3. Launch from Applications  
+
+**First launch:** if macOS shows a security prompt, **right-click Kirutma → Open** (this is normal for apps distributed outside the App Store).
 
 ---
 
@@ -47,29 +49,8 @@ See **[USER_MANUAL.md](./USER_MANUAL.md)** for the full guide.
 
 ---
 
-## Build from source
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org) 20+
-- [Rust](https://rustup.rs) 1.77+
-- [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/)
-
-### Commands
-
-```bash
-cd apps/desktop
-npm install
-npm run tauri dev      # development
-npm run build:app      # production build
-```
-
-Release builds and CI details: [DISTRIBUTION.md](./DISTRIBUTION.md)
-
----
-
 ## License
 
 Copyright © 2026 **Alexandar Vincent Paulraj**. All rights reserved.
 
-Proprietary software — see [LICENSE](./LICENSE) and [COPYRIGHT](./COPYRIGHT).
+Proprietary software — see [LICENSE](./LICENSE).

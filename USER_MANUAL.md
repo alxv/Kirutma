@@ -28,7 +28,7 @@ Kirutma is a desktop design application for creating layouts and vector graphics
 
 ### Install the app
 
-Download Kirutma from your release page or installer package. See [DISTRIBUTION.md](./DISTRIBUTION.md) for build and install details.
+Download Kirutma from the owner (see [README.md](./README.md)). This guide covers how to use the app after installation.
 
 ### Home screen
 
@@ -563,7 +563,7 @@ Open the full reference anytime: **Help → Keyboard Shortcuts…** or `Ctrl+?` 
 
 ### Getting help
 
-For installation and distribution, see [DISTRIBUTION.md](./DISTRIBUTION.md).
+For download and support, see [README.md](./README.md).
 
 ---
 

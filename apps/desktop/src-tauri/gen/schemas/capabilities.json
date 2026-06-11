@@ -1,1 +1,0 @@
-{"default":{"identifier":"default","description":"Default capabilities for the Kirutma main window","local":true,"windows":["main"],"permissions":["core:default","opener:default","dialog:default","fs:default","fs:allow-read-text-file","fs:allow-write-text-file","fs:allow-read-file",{"identifier":"fs:scope","allow":[{"path":"$HOME/**"}]}]}}

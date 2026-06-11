@@ -1,8 +1,0 @@
-[package]
-name = "kirutma-render"
-version = "0.1.0"
-edition.workspace = true
-
-[dependencies]
-kirutma-core = { path = "../kirutma-core" }
-vello = "0.9"

@@ -85,7 +85,6 @@ prompt_if_empty APPLE_TEAM_ID "Apple Team ID (10 characters)"
 set_secret APPLE_TEAM_ID "${APPLE_TEAM_ID:-}"
 
 # --- Windows ---
-prompt_if_empty WINDOWS_CERTIFICATE_FILE "Path to Windows .pfx (or Enter to skip)"
 if [[ -n "${WINDOWS_CERTIFICATE_FILE:-}" && -f "$WINDOWS_CERTIFICATE_FILE" ]]; then
   WINDOWS_CERTIFICATE="$(openssl base64 -A -in "$WINDOWS_CERTIFICATE_FILE")"
   set_secret WINDOWS_CERTIFICATE "$WINDOWS_CERTIFICATE"

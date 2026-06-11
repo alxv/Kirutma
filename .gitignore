@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Rust / Tauri
+target/
+**/target/
+
+# Frontend build output
+apps/desktop/dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Signing exports (never commit)
+*.p12
+*.pfx
+certificate-base64.txt
+base64cert.txt

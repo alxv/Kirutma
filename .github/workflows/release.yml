@@ -69,6 +69,9 @@ jobs:
           CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Developer ID Application" | head -1)
           if [ -z "$CERT_INFO" ]; then
             echo "No Developer ID Application certificate found in imported keychain."
+            echo "Available identities:"
+            security find-identity -v -p codesigning build.keychain || true
+            echo "Export the Developer ID Application .p12 (not Apple Development) and update APPLE_CERTIFICATE."
             exit 1
           fi
           CERT_ID=$(echo "$CERT_INFO" | awk -F'"' '{print $2}')
@@ -99,10 +102,11 @@ jobs:
 
       - name: Configure Windows signing in Tauri config
         if: matrix.platform == 'windows-latest'
+        shell: bash
         env:
           WINDOWS_CERTIFICATE_THUMBPRINT: ${{ secrets.WINDOWS_CERTIFICATE_THUMBPRINT }}
         run: |
-          if [ -z "$WINDOWS_CERTIFICATE_THUMBPRINT" ]; then
+          if [ -z "${WINDOWS_CERTIFICATE_THUMBPRINT:-}" ]; then
             echo "WINDOWS_CERTIFICATE_THUMBPRINT not set — skipping Windows signing config."
             exit 0
           fi

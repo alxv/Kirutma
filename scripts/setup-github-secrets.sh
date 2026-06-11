@@ -59,14 +59,21 @@ prompt_if_empty() {
 
 # --- Mac ---
 prompt_if_empty APPLE_CERTIFICATE_FILE "Path to Apple .p12 file"
+prompt_if_empty APPLE_CERTIFICATE_PASSWORD "Apple .p12 export password"
 if [[ -n "${APPLE_CERTIFICATE_FILE:-}" && -f "$APPLE_CERTIFICATE_FILE" ]]; then
+  if ! openssl pkcs12 -in "$APPLE_CERTIFICATE_FILE" -nokeys -clcerts -passin pass:"${APPLE_CERTIFICATE_PASSWORD}" 2>/dev/null \
+    | openssl x509 -noout -subject 2>/dev/null \
+    | grep -q "Developer ID Application"; then
+    red "Wrong certificate in .p12 — export Developer ID Application, not Apple Development."
+    echo "Keychain Access → login → My Certificates → Developer ID Application → Export private key as .p12"
+    exit 1
+  fi
   APPLE_CERTIFICATE="$(openssl base64 -A -in "$APPLE_CERTIFICATE_FILE")"
   set_secret APPLE_CERTIFICATE "$APPLE_CERTIFICATE"
 else
   echo "Apple .p12 not found — skipping Mac certificate secrets."
 fi
 
-prompt_if_empty APPLE_CERTIFICATE_PASSWORD "Apple .p12 export password"
 set_secret APPLE_CERTIFICATE_PASSWORD "${APPLE_CERTIFICATE_PASSWORD:-}"
 
 if [[ -z "${KEYCHAIN_PASSWORD:-}" ]]; then

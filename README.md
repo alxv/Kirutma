@@ -10,8 +10,7 @@ Kirutma is a desktop design application for UI mockups, layouts, and vector grap
 
 ## Download
 
-Kirutma for Mac (Apple Silicon) is distributed directly by the owner — not via this repository.
-
+Kirutma is available here: [kirutma.com](https://kirutma.com/)
 Contact **[Alexandar Vincent Paulraj](https://github.com/alxv)** for the latest `.dmg` installer.
 
 ### Install (Mac)

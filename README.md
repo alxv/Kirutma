@@ -1,4 +1,5 @@
 # Kirutma
+![Home screen](docs/screenshots/Kirutma_home.png)
 
 **Design with frames, shapes, and text on an infinite canvas.**
 

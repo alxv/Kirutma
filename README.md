@@ -11,6 +11,7 @@ Kirutma is a desktop design application for UI mockups, layouts, and vector grap
 ## Download
 
 Kirutma is available here: [kirutma.com](https://kirutma.com/)
+
 Contact **[Alexandar Vincent Paulraj](https://github.com/alxv)** for the latest `.dmg` installer.
 
 ### Install (Mac)

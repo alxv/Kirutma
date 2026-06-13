@@ -1,8 +1,8 @@
 # Kirutma
 ![Home screen](docs/screenshots/Kirutma_home.png)
 
-**Design with frames, shapes, and text on an infinite canvas.**
 
+**Design with frames, shapes, and text on an infinite canvas.**
 Kirutma is a desktop design application for UI mockups, layouts, and vector graphics — with layers, styles, components, and PNG/SVG export. Files are saved locally as `.kirutma` documents.
 
 **Owner:** Alexandar Vincent Paulraj
